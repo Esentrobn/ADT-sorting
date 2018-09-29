@@ -1,0 +1,76 @@
+
+> ls
+a.out                  sorted.cpp             sortedListInterface.h
+mainSorted.cpp         sortedList.h           typescript
+> g++ Assign2_Sorted.cpp
+> a.out
+        This program implements ADT sorted list
+Menu:
+        Enter I or i for inserting a name
+        Enter R or r for removing a name
+        Enter L or l to find the number of saved arrays
+        Enter G or g to retrieve a data
+        Enter P or p to get the position of a value
+        Enter S or s to show all the contents
+        Enter Q or q to quit from the program
+
+Enter your choice: l
+You have used 0 memory spaces of the total 10 memory spaces
+Enter your choice: i
+Enter a name: syrup
+Your value has been successfully added
+Enter your choice: i
+Enter a name: yogurt
+Your value has been successfully added
+Enter your choice: i
+Enter a name: swiss
+Your value has been successfully added
+Enter your choice: i
+Enter a name: crab
+Your value has been successfully added
+Enter your choice: i
+Enter a name: beer
+Your value has been successfully added
+Enter your choice: i
+Enter a name: tuna
+Your value has been successfully added
+Enter your choice: i
+Enter a name: vodca  ka
+Your value has been successfully added
+Enter your choice: i
+Enter a name: gin
+Your value has been successfully added
+Enter your choice: i
+Enter a name: milk
+Your value has been successfully added
+Enter your choice: i
+Enter a name: mint
+Your value has been successfully added
+Enter your choice: i
+Enter a name: tea
+Memeory is full, Try deleting a value
+Enter your choice: l
+You have used 10 memory spaces of the total 10 memory spaces
+Enter your choice: s
+These are the values you entered in order from least to greatest
+beer crab gin milk mint swiss syrup tuna vodka yogurt 
+Enter your choice: r
+Enter the name you want to delete: syrup
+syrup has been successfully deleted
+Enter your choice: s
+These are the values you entered in order from least to greatest
+beer crab gin milk mint swiss tuna vodka yogurt 
+Enter your choice: l
+You have used 9 memory spaces of the total 10 memory spaces
+Enter your choice: p
+Which value do you want to get the value of: tuna
+
+ The value you were looking for is at 6 position
+Enter your choice: g
+Which index value would you like to retrive: 8
+The vaue you are looking for at 8 is yogurt
+Enter your choice: q
+
+Good bye
+> ^Dexit
+
